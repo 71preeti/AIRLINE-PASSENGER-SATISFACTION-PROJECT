@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR21OXEGT46n3b73RvUa90N7scI95qpq_SF0Q&s') no-repeat center center fixed;
+           
+            color: #f4f4f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .navbar {
+            background-color: #2c3e50;
+            border-bottom: 3px solid #f1c40f;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #f4f4f9 !important;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.8rem;
+        }
+
+        .nav-link:hover {
+            color: #f1c40f !important;
+        }
+
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 20px;
+            margin-top: 50px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.15);
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+        }
+
+        .card-title {
+            color: #f1c40f;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .card-text {
+            color: #ecf0f1;
+        }
+
+        .btn {
+            background-color: #e74c3c;
+            color: #f4f4f9;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+            transform: scale(1.1);
+            color: #f4f4f9;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            border-top: 3px solid #f1c40f;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            margin: 0;
+            color: #f4f4f9;
+            font-size: 1.1rem;
+        }
+
+        .luxury-img {
+            
+            
+            object-fit: cover;
+            border-bottom: 3px solid #f1c40f;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"> 👤 Preeti Kuntal </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/project">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container text-center mt-5">
+    <h1 class="display-4">Welcome to my Portfolio 👤</h1>
+    <br> <br>
+
+    <p class="lead">
+        I'm a B.Tech student specializing in AI, currently pursuing a course in Data Science. As part of this course, I developed an Airline Passenger Satisfaction project using Flask and machine learning.. Explore my work below!</p>
+    
+        <br> <br>
+    <div class="row mt-5 justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Ff2fa1cdd9340fae53fcb49f577292458.cdn.bubble.io%2Ff1697356264251x530833103759653600%2FScreenshot%25202023-10-15%2520132054.png?w=&h=&auto=compress&dpr=1&fit=max" class="card-img-top luxury-img" alt="Luxury Project">
+                <div class="card-body">
+                    <h5 class="card-title">PROJECT  :  AIRLINE PASSENGER SATISFACTION</h5>
+                    <p class="card-text">The Airline Customer Satisfaction Project is a data analysis and machine learning project focused on understanding and predicting customer satisfaction with airline services. By analyzing various factors such as service quality, flight experience, and customer demographics, the project aims to build predictive models that can classify or score customer satisfaction levels. The insights gained from this project can help airlines improve their services, enhance customer experience, and ultimately increase customer loyalty.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center mt-4">
+    <a href="/userdata" class="btn btn-lg">GO FOR PREDICTION</a>
+</div>
+
+<!-- Footer -->
+<footer class="text-center">
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
